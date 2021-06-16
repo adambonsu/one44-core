@@ -9,7 +9,7 @@ module One44
 
     describe '#start' do
       it 'sends a welcome message' do
-        expect(output).to receive(:puts).with("Welcome to 144 - #{game}")
+        expect(output).to receive(:puts).with("Welcome to one44 - #{game}")
         test.start(game, questions)
       end
       it 'provides the first question, prompting for an answer' do

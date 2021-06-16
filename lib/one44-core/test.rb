@@ -13,7 +13,7 @@ module One44
 
     def start(name, questions)
       @questions = questions
-      @welcome.message("Welcome to 144 - #{name}")
+      @welcome.message("Welcome to one44 - #{name}")
       ask_first_question
     end
 

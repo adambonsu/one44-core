@@ -3,7 +3,7 @@
 module One44
   describe Welcome do
     let(:output) { double('output').as_null_object }
-    let(:text) { 'Welcome to 144' }
+    let(:text) { 'Welcome to one44' }
     let(:welcome) { Welcome.new(output) }
 
     describe '#message' do
