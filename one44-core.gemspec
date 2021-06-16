@@ -15,4 +15,10 @@ Gem::Specification.new do |s|
   s.homepage              = 'https://github.com/adambonsu/one44-core'
   s.license               = 'MIT'
   s.required_ruby_version = '>= 2.7.0'
+  s.add_development_dependency('coderay', '1.1.3')
+  s.add_development_dependency('cucumber', '3.1.2')
+  s.add_development_dependency('pry', '0.12.2')
+  s.add_development_dependency('rspec', '3.9.0')
+  s.add_development_dependency('rspec-wait', '0.0.9')
+  s.add_development_dependency('rubocop', '0.91.0')
 end
